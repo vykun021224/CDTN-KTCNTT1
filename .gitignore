@@ -1,0 +1,14 @@
+# Bỏ qua thư mục môi trường ảo
+venv/
+env/
+.env
+
+# Bỏ qua file rác của Python
+__pycache__/
+*.pyc
+
+# Bỏ qua dữ liệu training (dataset quá nặng > 100MB)
+dataset/
+data/
+
+# Bỏ qua file mô hình quá lớn (GitHub giới hạn 100MB/file)
